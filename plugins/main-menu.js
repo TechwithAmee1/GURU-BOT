@@ -25,8 +25,8 @@ let pp = './Guru.jpg'
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡║
 ║➤ *𝗛ii, ${taguser}* 
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡║
-║➤ *Creater:* Sandaru
-║➤ *Number:* wa.me/94764497078
+║➤ *Creater:* Guru
+║➤ *Number:* wa.me/917605902011
 ║➤ *Bot ofc:* wa.me/19048880099
 ║➤ *Insta:* asli_guru69
 ║➤ *Total Users:* ${rtotalreg}
@@ -40,7 +40,7 @@ let pp = './Guru.jpg'
 ┣ *💎 Diamonds:* ${diamond}
 ┣ *🎟️ Premium:* ${user.premium = 'true' ? '❌' : '✅'}
 ┗━━━━━━━━━━━━━━━━┛`, pp, 
-      ['MENU', `${usedPrefix}list`]
+      ['⌬ MENU LIST', `${usedPrefix}list`]
     ,m, rpyt)
     //await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
    

@@ -52,17 +52,17 @@ let infobt = `
 ▢ *${chats.length}* Total Chats
 
 *≡ OWNER*
-  *Sandaru*
+  *GURU*
 ▢ Instagram :
   • https://instagram.com/asli_guru69
 ▢ WhatsApp :
-  • wa.me/94764497078
+  • (NO NEED) 
 ▢ GitHub :
-  • https://github.com/Mr-Katussa
+  • https://github.com/Guru322
 ▢ Telegram : 
   • t.me/i_want_to_be_isekaied (GURU) 
 ▢ YouTube : 
-  • https://youtube.com/SANDARU-YT 
+  • https://youtube.com/@Asliguru
 
  *≡ S E R V E R*
 *🛑 RAM:* ${format(totalmem() - freemem())} / ${format(totalmem())}

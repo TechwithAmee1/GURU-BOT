@@ -4,7 +4,7 @@ import yts from 'yt-search'
 let handler = async(m, { conn, usedPrefix, text, args, command }) => {
 
     if (!text) throw `✳️ Enter a song title\n\n*📌 Example*\n*${usedPrefix + command}* Lil Peep hate my fuccn life `
-    m.react('✅')
+    m.react('📀')
     let result = await yts(text)
     let ytres = result.all
     let listSections = []
@@ -18,6 +18,6 @@ let handler = async(m, { conn, usedPrefix, text, args, command }) => {
 }
 handler.help = ['play2']
 handler.tags = ['dl']
-handler.command = ['play2', 'song', 'playlist', 'playlista'] 
+handler.command = ['play2', 'playvid2', 'playlist', 'playlista'] 
 
 export default handler

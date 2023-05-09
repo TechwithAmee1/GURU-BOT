@@ -23,16 +23,16 @@ var handler = async (m, { conn, command, text, usedPrefix }) => {
 ⬡ Views: ${views}
 ⬡ Upload: ${ago}
 ⬡ Link: ${url}
-╰────────⬣`, author.trim(), await( await conn.getFile(thumbnail)).data, ['VIDEO', `${usedPrefix}ytmp4 ${url} 360`], false, { quoted: m, 'document': { 'url':'https://wa.me/917605902011' },
+╰────────⬣`, author.trim(), await( await conn.getFile(thumbnail)).data, ['VIDEO', `${usedPrefix}ytmp4 ${url}`], false, { quoted: m, 'document': { 'url':'https://wa.me/917605902011' },
 'mimetype': global.dpdf,
-'fileName': `ℙ𝕃𝔸𝕐𝔼ℝ`,
+'fileName': `𝔾𝕌ℝ𝕌 ℙ𝕃𝔸𝕐𝔼ℝ`,
 'fileLength': 666666666666666,
 'pageCount': 666,contextInfo: { externalAdReply: { showAdAttribution: true,
 mediaType:  2,
 mediaUrl: `${url}`,
 title: `AUDIO IS BEING SENT...`,
 body: wm,
-sourceUrl: 'http://wa.me/94764497078', thumbnail: await ( await conn.getFile(thumbnail)).data
+sourceUrl: 'http://wa.me/917605902011', thumbnail: await ( await conn.getFile(thumbnail)).data
   }
  } 
 })
